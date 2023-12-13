@@ -1,0 +1,154 @@
+@font-face {
+    font-family: h;
+    src: url(./Laila\ Regular.ttf);
+}
+
+@font-face {
+    font-family: p;
+    src: url(./Hind\ Guntur\ Regular.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.main{
+    width: 100%;
+    min-height: 100%;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.559);
+    overflow-x: hidden;
+}
+
+.top{
+    padding-top:2vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+padding: 2vw 4vw;
+padding-bottom: 0;
+}
+
+.invoice{
+ 
+    display: flex;
+    flex-direction:column;
+    rotate: 270deg;
+     text-transform: uppercase;
+
+}
+.invoice h1{
+    font-size: 4vw;
+    font-family: h;
+   position: relative;
+right: 8vw;
+bottom: 5vw;
+
+letter-spacing: 20px;
+}
+
+
+.logo{
+position: relative;
+right: 10vw;
+    height: 200px;
+}
+
+.logo img{
+
+
+    height: 100%;
+}
+
+.contact p{
+    line-height: 2;
+}
+
+
+
+.second{
+    width: 100%;
+    height: 50vh;
+
+display: flex;
+flex-direction: row-reverse;
+padding: 10px 3vw;
+}
+
+.workig-area{
+/* border: 1px solid white; */
+width: 80%;
+height:100%;
+display: flex;
+justify-content: space-evenly   ;
+}
+
+.invoice-to{
+    width: 50%;
+    height: 100%;
+ 
+}
+
+.invoice-to h1{
+    text-align: center;
+    text-transform: uppercase;
+font-family: h;
+}
+
+.invoice-to h2{
+position: relative;
+left: 4vw;
+top: 3vw;
+font-weight: 1;
+text-transform: uppercase;
+font-size: 20px;
+font-family: p;
+}
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5vw;
+}
+.para{
+  width: 300px;
+
+}
+
+.right{
+
+width: 20%;
+}
+
+.right table{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: 1;
+    line-height: 2;
+}
+
+.signature{
+    position: relative;
+    margin-bottom: 5vw;
+}
+
+.signature hr{
+    width: 160px;
+    position: absolute;
+    right: 10vw;
+}
+
+.signature p{
+margin-right: 10vw;
+    text-align: right;
+    font-size: 2vw;
+}
